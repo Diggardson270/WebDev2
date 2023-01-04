@@ -1,0 +1,39 @@
+body{ 
+    background-color: hsl(257, 40%, 49%);
+    box-sizing: border-box;
+}
+
+.logo{ 
+    position: relative;
+    top: -47rem;
+    left: 6rem;
+}
+
+.main-content{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    top: -40rem;
+}
+
+.info{ 
+    color: white;
+    margin-left: 2rem;
+}
+
+.info h1{ 
+    font-size: 3rem;
+}
+.info p{ 
+    font-size: 1rem;
+}
+.register{
+    background-color: white; 
+    color: hsl(257, 40%, 49%);
+    text-decoration: none;
+    padding: 1rem 5rem;
+    border-radius: 22px;
+    position: relative;
+    top: 2rem;
+}
