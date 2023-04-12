@@ -1,0 +1,45 @@
+body{ 
+    background-color: rgb(24, 25, 26);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{ 
+    background-image: linear-gradient(to top, rgb(18, 20, 23) , rgb(37, 45, 55));
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 20em;
+}
+
+.star{ 
+    background-color: rgb(29, 27, 27);
+    padding: 10px;
+    border-radius: 100%;
+    width: 1.2rem;
+    height: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-section h1{ 
+    color: white;
+}
+
+.first-section p{ 
+    color: rgb(101, 114, 133);
+}
+
+.rating ul{ 
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(1fr, 6);
+
+}
+.rating li{ 
+    list-style: none;
+    background-color: rgb(23, 26, 26);
+}
